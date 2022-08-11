@@ -50,3 +50,18 @@ header li, a, button {
     text-decoration: overline;
     color: white;
 }
+
+/* styels for navigation-button starts here */
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: black;
+    border: white solid 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+} 
+
+button:hover {
+    background-color: white;
+    color: black;
+}
