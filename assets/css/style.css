@@ -202,6 +202,7 @@ header li, a, button {
 
 
  @media screen and (max-width: 700px) {
+    /* the toggel menu and dontaion button */
     .hamburger,
     .toggle-menu {
         display: block;
@@ -262,5 +263,16 @@ header li, a, button {
 
     .donation-button {
         display: none;
+    }
+
+    /* welcome text on the background video */
+    .welcome-header {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        display: inline-block;
+        clear: both;
+        overflow: hidden;
+        white-space: nowrap;
     }
  }
