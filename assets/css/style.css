@@ -1,15 +1,18 @@
 * {
     box-sizing: border-box;
-    margin: o;
+    margin: 0;
     padding: 0;
 }
 
 header {
+    z-index: 3;
     background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    width: 100%;
+    padding: 30px;
+    position: fixed;
 }
 
 header li, a, button {
@@ -52,7 +55,7 @@ header li, a, button {
 }
 
 /* styels for donation button starts here */
-button {
+.donation-button {
     margin-left: 20px;
     padding: 9px 25px;
     background-color: black;
@@ -62,7 +65,7 @@ button {
     transition: all 0.3s ease 0s;
 } 
 
-button:hover {
+.donation-button:hover {
     background-color: white;
     color: black;
 }
@@ -117,6 +120,10 @@ button:hover {
     display: none;
  }
 
+ .nav-list :nth-child(4) {
+    display: none;
+ }
+
  header input:checked ~ .nav-list {
     right: 0;
  }
@@ -125,6 +132,7 @@ button:hover {
     .hamburger,
     .toggle-menu {
         display: block;
+        z-index: 4;
     }
 
     header {
@@ -132,19 +140,32 @@ button:hover {
     }
 
     .nav-list {
+        z-index: 3;
         justify-content: start;
         flex-direction: column;
         align-items: center;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -250px;
         background: black;
-        width: 300px;
+        width: 250px;
         height: 100%;
         padding-top: 65px;        
     }
 
-    .nav-list li {
+    .nav-list :nth-child(4) {
+        display: inline-block;
+    }
+
+    .nav-list :nth-child(4) a {
+        display: inline-block;
+        border: white solid 2px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-list li, .nav-list :nth-child(4) {
         width: 100%;
         margin: 10px;
     }
@@ -154,9 +175,19 @@ button:hover {
         font-size: 24px;
     }
 
-    .nav-list li a:hover {
+    .nav-list :nth-child(-n+3) a:hover {
         text-decoration: none;
         background-color: white;
         color: black;
+    }
+
+    .nav-list :nth-child(4) a:hover {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+    }
+
+    .donation-button {
+        display: none;
     }
  }
