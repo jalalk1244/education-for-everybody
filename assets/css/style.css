@@ -198,6 +198,40 @@ header li, a, button {
     border-color: white;
  }
 
+ /* the 2 projects */
+ .grid-container {
+    margin: 30px;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .grid-container > div {
+    background-color: silver;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #777;
+ }
+
+ .child3 {
+    grid-column: span 2;
+    height: 300px;
+ }
+
+ .project-1-image {
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .project1 h2 {
+    transform: translateY(-100%);
+    font-size: 2vw;
+    color: white;
+ }
+
 
 
 
