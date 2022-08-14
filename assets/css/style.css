@@ -174,7 +174,7 @@ header li, a, button {
  }
 
  .welcome-header {
-    font-size: 5rem;
+    font-size: 6vw;
     color: white;
     font-weight: 300;
     display: inline-block;
@@ -209,11 +209,9 @@ header li, a, button {
     grid-template-columns: 50% 50%;
  }
 
- .grid-container > div {
+ .grid-container > article {
     background-color: silver;
     text-align: center;
-    padding: 20px;
-    border: 1px solid #777;
  }
 
  .child3 {
@@ -221,18 +219,41 @@ header li, a, button {
     height: 300px;
  }
 
- .project-1-image {
-    max-width: 100%;
-    max-height: 100%;
+ .project {
+   position: relative;
+   text-align: center;
  }
 
- .project1 h2 {
-    transform: translateY(-100%);
-    font-size: 2vw;
-    color: white;
+ .project h3 {
+   color: white;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
  }
 
+ .project a {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 5px 10px;
+   border: 2px solid white;
+   border-radius: 60px;
+   background-color: black;
+ }
 
+ .project a:hover {
+   background-color: white;
+   color: black;
+   border-color: black;
+ }
+
+ .project-image {
+   object-fit: cover;
+   width: 100%;
+   fill: brightness(50%);
+ }
 
 
  @media screen and (max-width: 700px) {
@@ -297,16 +318,5 @@ header li, a, button {
 
     .donation-button {
         display: none;
-    }
-
-    /* welcome text on the background video */
-    .welcome-header {
-        width: 100%;
-        font-size: 2rem;
-        margin-bottom: 20px;
-        display: inline-block;
-        clear: both;
-        overflow: hidden;
-        white-space: nowrap;
     }
  }
