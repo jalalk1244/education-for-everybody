@@ -253,8 +253,21 @@ header li, a, button {
  .project-image {
    object-fit: cover;
    width: 100%;
-   fill: brightness(50%);
+   filter:brightness(50%);
  }
+
+ /* styles for volunteer request */
+ .volunteer-request {
+   margin: 20px;
+   text-align: center;
+   padding-top: 50px;
+   font-size: 3vw;
+ }
+
+ .volunteer-request h2 {
+   font-size: 2vw;
+   font-weight: bold;
+ } 
 
 
  @media screen and (max-width: 700px) {
