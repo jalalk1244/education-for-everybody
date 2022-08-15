@@ -336,6 +336,25 @@ header li, a, button {
    font-size: 3vw
  }
 
+ /* Our partners */
+ .container {
+   background-color: silver;
+   padding: 10px;
+ }
+
+ .sponsers {
+   display: flex;
+   justify-content: space-around;
+   height: 100px;
+   width: 100%;
+ }
+
+ .sponsers img {
+   border-radius: 100%;
+ }
+
+
+ /* All the media quries */
  @media screen and (max-width: 700px) {
     /* the toggel menu and dontaion button */
     .hamburger,
