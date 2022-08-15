@@ -398,8 +398,30 @@ header li, a, button {
    text-align: center;
  }
 
+ .copyright-container {
+  grid-column: span 3;
+  background-color: silver;
+  color: black;
+  padding-bottom: 3px;
+  text-align: center;
+  width: 100%;
+  height: max-content;
+  font-size: 80%;
+ }
+
+ .center a:hover {
+  border-bottom: 1px solid white;
+ }
+
 
  /* All the media quries */
+ @media screen and (max-width: 992px) {
+    /* the project section */
+    .grid-container :nth-child(-n+6) {
+      grid-column: span 2;
+    }
+ }
+
  @media screen and (max-width: 700px) {
     /* the toggel menu and dontaion button */
     .hamburger,
@@ -462,10 +484,5 @@ header li, a, button {
 
     .donation-button {
         display: none;
-    }
-
-    /* the project section */
-    .grid-container :nth-child(-n+6) {
-      grid-column: span 2;
     }
  }
