@@ -353,6 +353,11 @@ header li, a, button {
    border-radius: 100%;
  }
 
+ /* The footer styles */
+ footer {
+   background-color: black;
+ }
+
 
  /* All the media quries */
  @media screen and (max-width: 700px) {
