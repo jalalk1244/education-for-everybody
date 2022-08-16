@@ -117,7 +117,8 @@ header li, a, button {
 
  .toggle-menu {
     position: absolute;
-    width: 30px; 
+    top: -50px;
+    width: 40px; 
     height: 100%;
     z-index: 3;
     cursor: pointer;
@@ -191,6 +192,7 @@ header li, a, button {
     font-weight: 300;
     display: inline-block;
     width: max-content;
+    margin-bottom: 20px;
  }
 
  .welcome a {
@@ -298,11 +300,19 @@ header li, a, button {
    font-size: 3vw;
  }
 
+ .form-box h2 {
+  border-bottom: 2px solid white;
+ }
+
+ .volunteer-form {
+  width: 100%;
+ }
+
  .volunteer-form input {
-   display: inline-block;
+   display: block;
    width: 90%;
    padding: 10px 5px;
-   margin: 10px 10px;
+   margin: 10px 20px;
  }
 
  .sign-up {
@@ -325,7 +335,7 @@ header li, a, button {
    border: 2px solid white;
    border-radius: 60px;
    width: 33%;
-   margin: 10px;
+   margin: 10px 20px;
  }
  
  input[type=submit]:hover {
@@ -338,6 +348,10 @@ header li, a, button {
    text-align: center;
    margin: 10px;
    font-size: 3vw
+ }
+
+ .school-boys-image {
+  padding-top: 20px;
  }
 
  /* Our partners */
@@ -354,7 +368,9 @@ header li, a, button {
  }
 
  .sponsers img {
-   border-radius: 100%;
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
  }
 
  /* The footer styles */
@@ -366,6 +382,7 @@ header li, a, button {
  .footer-container {
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
  }
 
  .footer-container :nth-child(-n+3) {
@@ -374,24 +391,27 @@ header li, a, button {
 
  .left {
    text-align: center;
-   padding-left: 50px;
    padding-bottom: 10px;
  }
 
  .quote {
    display: inline-block;
    text-align: center;
-   margin-top: 10px;
+   margin: 0 !important;
    max-width: 300px;
  }
 
  .center-text {
    text-align: center;
-   width: 300px;
+   margin: 0 !important;
  }
 
  .center {
    text-align: center;
+ }
+
+ .center a:hover {
+  border-bottom: 1px solid white;
  }
 
  .center p, .right p {
@@ -406,15 +426,11 @@ header li, a, button {
   grid-column: span 3;
   background-color: silver;
   color: black;
-  padding-bottom: 3px;
+  padding: 10px;
   text-align: center;
   width: 100%;
   height: max-content;
   font-size: 80%;
- }
-
- .center a:hover {
-  border-bottom: 1px solid white;
  }
 
 
@@ -513,13 +529,13 @@ header li, a, button {
 
  @media screen and (max-width: 600px) {
 
-    .project a, .volunteer-request h2 {
+    .volunteer-request h2 {
       font-size: 1.5rem;
     }
 
     .volunteer-request,
     .donation-message,
     .project h3 {
-      font-size: 2rem;
+      font-size: initial;
     }
  }
