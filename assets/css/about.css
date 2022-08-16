@@ -168,6 +168,10 @@ header li, a, button {
     line-height: 30px;
  }
 
+ .information a {
+    color: #ff5733;
+ }
+
  .about-container img {
     object-fit: cover;
     width: 100%;
@@ -187,24 +191,34 @@ header li, a, button {
  .newsletter {
     background-color: #ff5733;
     width: 100%;
-    height: 200px;
     padding: 10px;
     display: grid;
     grid-template-columns: 50% 50%;
  }
 
+ .call-to-subscribtion {
+    margin-bottom: 20px;
+ }
+
  .subscribe-form {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
  }
 
- .subscribe-form label, .subscribe-form input {
-    margin-bottom: 15px;
+ .subscribe-form label {
+    margin-bottom: 5px;
+ }
+
+ .subscribe-form input {
+    margin-bottom: 20px;
  }
 
  input[type=tel], input[type=email] {
     border: none;
     width: 50%;
+    padding: 5px 10px;
  }
 
  input[type=submit] {
@@ -226,12 +240,12 @@ header li, a, button {
  footer {
     background-color: black;
     color: white;
-    margin-top: auto;
   }
  
   .footer-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
  
   .footer-container :nth-child(-n+3) {
@@ -240,24 +254,27 @@ header li, a, button {
  
   .left {
     text-align: center;
-    padding-left: 50px;
     padding-bottom: 10px;
   }
  
   .quote {
     display: inline-block;
     text-align: center;
-    margin-top: 10px;
+    margin: 0 !important;
     max-width: 300px;
   }
  
   .center-text {
     text-align: center;
-    width: 300px;
+    margin: 0 !important;
   }
  
   .center {
     text-align: center;
+  }
+ 
+  .center a:hover {
+   border-bottom: 1px solid white;
   }
  
   .center p, .right p {
@@ -272,15 +289,11 @@ header li, a, button {
    grid-column: span 3;
    background-color: silver;
    color: black;
-   padding-bottom: 3px;
+   padding: 10px;
    text-align: center;
    width: 100%;
    height: max-content;
    font-size: 80%;
-  }
- 
-  .center a:hover {
-   border-bottom: 1px solid white;
   }
 
     /* All the media quries */
@@ -357,5 +370,34 @@ header li, a, button {
         /* The footer */
         .footer-container {
             flex-direction: column;
-        }
+            align-items: center;
+            justify-content: center;
+          }
+      
+          .left :nth-child(-n+2) {
+            text-align: center;
+            max-width: 200px;
+          }
+      
+          .center {
+            text-align: center;
+          }
     }
+
+@media screen and (max-width: 650px) {
+    .about-container :nth-child(-n+2) {
+        grid-column: span 3;
+    }
+
+    .images-of-about :nth-child(-n+3) {
+        grid-column: span 1;
+    }
+
+    .images-of-about :nth-child(1) {
+        grid-column: span 2;
+    }
+
+    .newsletter :nth-child(-n+2) {
+        grid-column: span 2;
+    }
+}
