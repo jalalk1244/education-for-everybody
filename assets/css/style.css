@@ -48,6 +48,10 @@ header li, a, button {
     list-style-type: none;
 }
 
+.active {
+  text-decoration: overline;
+}
+
 .nav-list li {
     display: inline-block;
     padding: 0px 20px;
@@ -432,6 +436,10 @@ header li, a, button {
 
     header {
         padding: 10px 20px;
+    }
+
+    .active {
+      text-decoration: none;
     }
 
     .nav-list {
