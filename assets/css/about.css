@@ -8,6 +8,16 @@
     font-family: montserrat, sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 h1, h2, h3 {
    font-family: oswald, verdana;
 }
@@ -20,8 +30,6 @@ header {
     align-items: center;
     width: 100%;
     padding: 30px;
-    position: fixed;
-    opacity: .7;
 }
 
 header li, a, button {
@@ -136,6 +144,67 @@ header li, a, button {
     right: 0;
  }
 
+ /* The footer styles */
+ footer {
+    background-color: black;
+    color: white;
+    margin-top: auto;
+  }
+ 
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+ 
+  .footer-container :nth-child(-n+3) {
+    margin-top: 10px;
+  }
+ 
+  .left {
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+ 
+  .quote {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 300px;
+  }
+ 
+  .center-text {
+    text-align: center;
+    width: 300px;
+  }
+ 
+  .center {
+    text-align: center;
+  }
+ 
+  .center p, .right p {
+    margin-bottom: 10px;
+  }
+ 
+  .right {
+    text-align: center;
+  }
+ 
+  .copyright-container {
+   grid-column: span 3;
+   background-color: silver;
+   color: black;
+   padding-bottom: 3px;
+   text-align: center;
+   width: 100%;
+   height: max-content;
+   font-size: 80%;
+  }
+ 
+  .center a:hover {
+   border-bottom: 1px solid white;
+  }
+
     /* All the media quries */
     @media screen and (max-width: 768px) {
         /* the toggel menu and dontaion button */
@@ -199,5 +268,10 @@ header li, a, button {
     
         .donation-button {
             display: none;
+        }
+
+        /* The footer */
+        .footer-container {
+            flex-direction: column;
         }
     }
