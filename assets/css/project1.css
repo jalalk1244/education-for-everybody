@@ -16,6 +16,7 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: silver;
 }
 
 h1, h2, h3 {
@@ -142,6 +143,54 @@ header li, a, button {
 
  header input:checked ~ .nav-list {
     right: 0;
+ }
+
+ /* The project information */
+ .project-heading {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    height: 100px;
+    line-height: 70px;
+    font-size: 3rem;
+ }
+
+ .project-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 50px;
+ }
+
+ .project-image {
+    grid-column: span 2;
+ }
+
+ .project-image img {
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .project-discription {
+    margin: 20px;
+    line-height: 40px;
+    text-align: center;
+    grid-column: span 2;
+ }
+
+ .payment-method {
+    grid-column: span 2;
+    background-color: #ff5733;
+    color: black;
+    padding: 20px;
+ }
+
+ .payment-information {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .visa, .mastercard {
+    margin: 20px;
  }
 
 /* The footer styles */
