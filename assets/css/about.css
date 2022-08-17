@@ -70,6 +70,10 @@ header li, a, button {
     color: white;
 }
 
+.active {
+    text-decoration: overline;
+}
+
 /* styels for donation button starts here */
 .donation-button {
     margin-left: 20px;

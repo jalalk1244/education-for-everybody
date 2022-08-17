@@ -71,6 +71,10 @@ header li, a, button {
     color: white;
 }
 
+.active {
+    text-decoration: overline;
+}
+
 /* styels for donation button starts here */
 .donation-button {
     margin-left: 20px;
@@ -169,7 +173,6 @@ header li, a, button {
  }
 
  .contact-form label {
-    font-size: 2vw;
     margin: 5px 10px;
     display: block;
     text-align: center;
@@ -329,6 +332,13 @@ header li, a, button {
         .donation-button {
             display: none;
         }
+
+        /* The contact form and photo */
+        .contact-container {
+            grid-template-columns: 100%;
+            grid-gap: 10px;
+        }
+
 
         /* The footer */
         .footer-container {
