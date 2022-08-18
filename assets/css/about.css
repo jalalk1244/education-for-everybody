@@ -204,6 +204,10 @@ header li, a, button {
     margin-bottom: 20px;
  }
 
+ .form-of-subscribe {
+    text-align: center;
+ }
+
  .subscribe-form {
     display: flex;
     flex-direction: column;

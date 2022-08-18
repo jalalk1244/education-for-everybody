@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/about.css">
     <title>EFE</title>
 </head>
+
 <body>
     <header>
         <a class="logo-link" href="index.html"><div class="logo-container">Education for <br><span class="white-background">EVERYBODY</span></div></a>
@@ -18,49 +19,53 @@
             <div class="hamburger"></div> 
             <ul class="nav-list">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <li><a class="active" href="about.html">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li class="donation-button-li"><a href="#">DONATE</a></li>
             </ul>
         </nav>
         <a href="project1.html" class="donation-button">DONATE</a>
     </header>
-    <section class="about">
-        <div class="about-container">
-            <div class="information">
-                <h1>About Us:</h1><br>
-                <p>Education for everybody is a politically unaffiliated, humanitarian aid organisation, whose goal is to make it possible for everybody to utilise their right for education. One of our core principles has been, since 2022, that the donation of people goes 100% <strong>unabridged</strong> to our project's goal. Our aim, in particular, is to help children in developing countries such as Afghanistan, Somalia, Mali and more to use their rights.</p><br>
-                <p>>We regard ourselves as a trustworthy intermediary between donors of donations and the children in need of them. The tasks are carried out by our volunteers who operate both abroad and in Sweden. Videos and photographs are used to document the project's progression. In our <a href="#newsletter">newsletter</a>, you may learn more about them and stay updated.</p><br>
-                <p>We make sure that whether it comes to building projects or the acquisition and distribution of educational supplies, our partners choose regional entrepreneurs. By doing this, the money stays in the country, aiding in its long-term growth.</p>
+
+    <section class="about-container">    
+        <article class="information">
+            <h1>About us:</h1><br>
+            <p>Education for everybody is a politically unaffiliated, humanitarian aid organisation, whose goal is to make it possible for everybody to utilise their right for education. One of our core principles has been, since 2022, that the donation of people goes 100% <strong>unabridged</strong> to our project's goal. Our aim, in particular, is to help children in developing countries such as Afghanistan, Somalia, Mali and more to use their rights.</p><br>
+            <p>>We regard ourselves as a trustworthy intermediary between donors of donations and the children in need of them. The tasks are carried out by our volunteers who operate both abroad and in Sweden. Videos and photographs are used to document the project's progression. In our <a href="#newsletter">newsletter</a>, you may learn more about them and stay updated.</p><br>
+            <p>We make sure that whether it comes to building projects or the acquisition and distribution of educational supplies, our partners choose regional entrepreneurs. By doing this, the money stays in the country, aiding in its long-term growth.</p>
+        </article>
+        <aside class="images-of-about">
+            <div class="about-image">
+                <img src="./assets/images/mali1.jpg" alt="a student in mali"> 
             </div>
-            <div class="images-of-about">
-                <div class="about-image">
-                    <img src="./assets/images/mali1.jpg" alt="a student in mali"> 
-                </div>
-                <div class="about-image">
-                    <img src="./assets/images/southsudan.jpg" alt="a student in southsudan">
-                </div>
-                <div class="about-image">
-                    <img src="./assets/images/school-boy1.0.jpg" alt="students in afghanistan">
-                </div>
+            <div class="about-image">
+                <img src="./assets/images/southsudan.jpg" alt="a student in southsudan">
             </div>
-        </div>
+            <div class="about-image">
+                <img src="./assets/images/school-boy1.0.jpg" alt="students in afghanistan">
+            </div>
+        </aside>       
     </section>
-    <section>
-        <div class="newsletter" id="newsletter">
-            <div class="call-to-subscribtion">
-                <h2>Subscribe To Our Newsletter</h2>
-                <p>sGet news and updates on our projects</p>
-            </div>
-            <form class="subscribe-form">
+    
+    <section class="newsletter" id="newsletter">        
+        <div class="call-to-subscribtion">
+            <h2>Subscribe To Our Newsletter</h2>
+            <p>Get news and updates on our projects</p>
+        </div>
+        <form class="form-of-subscribe">
+            <div class="subscribe-form">
                 <label for="email">Email Adress</label>
                 <input type="email" name="email" id="email" placeholder="Your Email Adress">
+            </div>
+            <div class="subscribe-form">
                 <label for="mobile-number">Phone Number</label>
                 <input type="tel" name="mobile-number" id="mobile-number" placeholder="Your Phone Number">
-                <input type="submit" value="Subscribe">
-            </form>
-        </div>
+            </div>
+
+            <input type="submit" value="Subscribe">
+        </form>
     </section>
+
     <footer>
         <div class="footer-container">
             <div class="left">
