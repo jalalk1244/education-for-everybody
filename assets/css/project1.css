@@ -31,6 +31,7 @@ header {
     align-items: center;
     width: 100%;
     padding: 30px;
+    position: fixed;
 }
 
 header li, a, button {
@@ -151,7 +152,7 @@ header li, a, button {
  .project-heading {
     display: block;
     text-align: center;
-    margin: 20px 0;
+    margin-top: 132px;
     height: 100px;
     line-height: 70px;
     font-size: 3rem;
@@ -181,7 +182,7 @@ header li, a, button {
 
  .payment-method {
     grid-column: span 2;
-    background-color: #ff5733;
+    background-color: silver;
     color: black;
     padding: 20px;
  }
@@ -193,6 +194,10 @@ header li, a, button {
 
  .visa, .mastercard {
     margin: 20px;
+ }
+
+ .color-white {
+    color: white;
  }
 
 /* The footer styles */
