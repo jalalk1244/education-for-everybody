@@ -326,6 +326,11 @@ footer {
         display: none;
     }
 
+    /* The project discription */
+    .project-heading {
+        margin-top: 95px;
+    }
+
     /* The footer */
     .footer-container {
         flex-direction: column;

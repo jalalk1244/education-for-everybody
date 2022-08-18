@@ -153,6 +153,10 @@ header li, a, button {
  }
 
  /* The contact form and picture */
+ .contact-section {
+    margin-top: 115px;
+ }
+
  .contact-heading {
     padding: 10px 20px;
  }
@@ -345,6 +349,11 @@ header li, a, button {
         }
 
         /* The contact form and photo */
+        
+        .contact-section {
+            margin-top: 75px;
+        }
+
         .contact-container {
             grid-template-columns: 100%;
             grid-gap: 10px;
