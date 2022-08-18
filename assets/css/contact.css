@@ -49,8 +49,7 @@ header li, a, button {
 }
 
 .white-background {
-    background-color: white;
-    color: black;
+    color: #ff5733;
 }
 
 /* navigation styles starts here */
@@ -68,12 +67,11 @@ header li, a, button {
 }
 
 .nav-list li a:hover {
-    text-decoration: overline;
-    color: white;
+    color: #ff5733;
 }
 
 .active {
-    text-decoration: overline;
+    color: #ff5733;
 }
 
 /* styels for donation button starts here */
@@ -81,15 +79,15 @@ header li, a, button {
     margin-left: 20px;
     padding: 9px 25px;
     background-color: black;
-    border: white solid 2px;
+    border: #ff5733 solid 2px;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 } 
 
 .donation-button:hover {
-    background-color: white;
-    color: black;
+    border-color: white;
+    color: #ff5733;
 }
 
 /* toggle menu (hamburger) for smaller screen sizes */
@@ -199,16 +197,15 @@ header li, a, button {
  input[type=submit] {
     background: black;
     color: white;
-    border: 2px solid white;
+    border: 2px solid #ff5733;
     border-radius: 60px;
     width: 33%;
     margin: 10px 20px;
  }
 
  input[type=submit]:hover {
-    background: white;
-    border-color: black;
-    color: black;
+    border-color: white;
+    color: #ff5733;
  }
  
  .contact-photo img {
@@ -256,7 +253,7 @@ header li, a, button {
   }
  
   .center a:hover {
-   border-bottom: 1px solid white;
+   color: #ff5733;
   }
  
   .center p, .right p {
@@ -265,6 +262,15 @@ header li, a, button {
  
   .right {
     text-align: center;
+  }
+
+  .right i {
+    color: #ff5733;
+  }
+
+  .right a:hover {
+    color: #ff5733;
+    font-size: 150%;
   }
  
   .copyright-container {
@@ -312,7 +318,7 @@ header li, a, button {
     
         .nav-list :nth-child(4) a {
             display: inline-block;
-            border: white solid 2px;
+            border: #ff5733 solid 2px;
             border-radius: 50px;
             cursor: pointer;
             transition: all 0.3s ease 0s;
@@ -329,15 +335,12 @@ header li, a, button {
         }
     
         .nav-list :nth-child(-n+3) a:hover {
-            text-decoration: none;
-            background-color: white;
-            color: black;
+            color: #ff5733;
         }
     
         .nav-list :nth-child(4) a:hover {
-            text-decoration: none;
-            background-color: white;
-            color: black;
+            border-color: white;
+            color: #ff5733;
         }
     
         .donation-button {
