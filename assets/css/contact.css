@@ -126,8 +126,10 @@ header li, a, button {
 
  .toggle-menu {
     position: absolute;
-    width: 30px; 
-    height: 100%;
+    top: 8px;
+    right: 13px;
+    width: 45px; 
+    height: 45px;
     z-index: 3;
     cursor: pointer;
     opacity: 0;
@@ -152,6 +154,10 @@ header li, a, button {
  /* The contact form and picture */
  .contact-heading {
     padding: 10px 20px;
+ }
+
+ .contact-heading h1 {
+    font-size: 1.5rem !important;
  }
 
  .contact-heading h1 {
@@ -331,6 +337,10 @@ header li, a, button {
     
         .donation-button {
             display: none;
+        }
+
+        .active {
+            text-decoration: none;
         }
 
         /* The contact form and photo */

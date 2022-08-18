@@ -125,8 +125,10 @@ header li, a, button {
 
  .toggle-menu {
     position: absolute;
-    width: 30px; 
-    height: 100%;
+    top: 8px;
+    right: 13px;
+    width: 45px; 
+    height: 45px;
     z-index: 3;
     cursor: pointer;
     opacity: 0;
@@ -148,7 +150,7 @@ header li, a, button {
     right: 0;
  }
 
- /* The information about us section */
+ /* The information in about us section */
  .about-container {
     background-color: silver;
     padding: 20px;
@@ -170,6 +172,10 @@ header li, a, button {
 
  .information p {
     line-height: 30px;
+ }
+
+ .information h1 {
+    font-size: 1.5rem;
  }
 
  .information a {
@@ -373,6 +379,10 @@ header li, a, button {
     
         .donation-button {
             display: none;
+        }
+
+        .active {
+            text-decoration: none;
         }
 
         /* The footer */

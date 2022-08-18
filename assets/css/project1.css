@@ -122,8 +122,10 @@ header li, a, button {
 
  .toggle-menu {
     position: absolute;
-    width: 30px; 
-    height: 100%;
+    top: 8px;
+    right: 13px;
+    width: 45px; 
+    height: 45px;
     z-index: 3;
     cursor: pointer;
     opacity: 0;
