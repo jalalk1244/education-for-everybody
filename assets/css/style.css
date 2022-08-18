@@ -38,8 +38,6 @@ header li, a, button {
 }
 
 .white-background {
-    /* background-color: white;
-    color: black; */
     color: #ff5733;
 }
 
@@ -49,7 +47,7 @@ header li, a, button {
 }
 
 .active {
-  text-decoration: overline;
+  color: #ff5733;
 }
 
 .nav-list li {
@@ -62,8 +60,6 @@ header li, a, button {
 }
 
 .nav-list li a:hover {
-    /* text-decoration: overline;
-    color: white; */
     color: #ff5733;
 }
 
