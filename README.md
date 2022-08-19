@@ -1,108 +1,120 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Education for EVERYBODY (EFE)
+According to statistics, countries with a high poverty rate also have very low literacy rate and enrolled children in schools. Poverty is the reason that quality education is a distant dream for a lot of children that live in these countries. Education for EVERYBODY (EFE) is a donation site for people with compassion who want to help these children utilise their right for education and people who want to make a difference by their donations. EFE sees itself as a reliable and secure link between the donors and the children in need. This is because one of our core principle is that all of the donation money, 100% uncut, will go to bringing quality education for children who cannot afford it.
 
-Welcome jalalk1244,
+![image of the site](./assets/images/am-i-responsive-screenshot.png)
+## Features
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Navigation Bar:**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![image of the nav bar](./assets/images/nav-bar.png)
+- This is a feature that exists in all pages of the site where users can comfortably navigate themselves to different pages. In here is a Logo link, link to about page, link to contact page and a donation button.
 
-## Gitpod Reminders
+- This feature not only makes it easy for the users to go from one page to another but it also clearly shows a donation option
+for people who want to donate.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Landing page video:**
 
-`python3 -m http.server`
+![image of the landig page video](./assets/images/landing-page-video.png)
+- This section has a video and a heading of the website's name on it. Underneath that is a description of our ‘’100% uncut’’ principle.
 
-A blue button should appear to click: _Make Public_,
+- The purpose of this section is to show the users what the site is about and draw their attention to it by describing our important and distinct principle.
 
-Another blue button should appear to click: _Open Browser_.
+**The projects section:**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![image of the projects section](./assets/images/the-projects-section.png)
+- In this part there are the projects that the site EFE is working on currently each with an image, title and a ¨read more¨ link which takes you to the description of the projects.
 
-A blue button should appear to click: _Make Public_,
+- This section will be updated when new projects begin.
 
-Another blue button should appear to click: _Open Browser_.
+**The volunteer section:**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![image of the volunteer section](./assets/images/the-volunteer-section.png)
+- The volunteer section provides information about how we run our projects and it includes a volunteer request form.
 
-To log into the Heroku toolbelt CLI:
+- This section allows the users who are interested in working with our projects to sign up for volunteer work.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**The sponsors and donation message:**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![image of the sponsers section](./assets/images/the-sponsers-section.png)
+- This section states how much it costs to fund a child and provides logos of our partners.
 
-------
+- The donation message encourages users to donate.
 
-## Release History
+**The footer:**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![image of the footer](./assets/images/the-footer.png)
+- The footer consists of the logo, a quote, links to social media and links to other important sections of the website.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- This section gives users a clickable link to navigate to important  sections of the website without scrolling up or using the back button.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**About us:**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![image of the about page](./assets/images/about-us.png)
+- About us includes information about the site, photos and a subscription form.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- This page is important because it provides the user with information about EFE and what they do.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**The contact page:**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![image of the contact page](./assets/images/contact-page.png)
+- In this page there is a form by which the user can contact EFE and a photo.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- The contact page gives the user a chance to communicate with EFE if they have any questions or other messages.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**The project description Page:**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![image of the project discription page](./assets/images/project-discription1.png)
+![image of the project discription page](./assets/images/project-discription2.png)
+- This page describes the project and it gives the user the banking info where they can send their donation.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- In this section the user can read about the project that they are interested in and have a chance to donate to the project.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Validator Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- HTML
+    * Validated using [W3C](https://validator.w3.org/) HTML validator and no errors were found.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- CSS
+    * Validated using [Jigsaw](https://jigsaw.w3.org/css-validator/) validator and no error were found.
 
-------
+- I have also checked and tested the site on different browsers such as Chrome, Firefox, Edge and Safari. By using the chrome dev tools and [Am I Responsive?](https://ui.dev/amiresponsive?url=https://8000-jalalk1244-educationfor-fd3e2i2syhp.ws-eu62.gitpod.io/index.html) website have i checked and confirmed the responsiveness of the site.
 
-## FAQ about the uptime script
+- I have tested the links that has an href other than "#" and all of them work.
 
-**Why have you added this script?**
+- Lighthouse report (Chrome dev-tool)
+    ![image of lighthouse report](./assets/images/light-house.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Deployment
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Credit
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- **Content**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    * The facts about Somalia in the project page is taken from [World Bank Blogs](https://blogs.worldbank.org/africacan/data-development-poverty-and-policy-somalia#:~:text=Nearly%20seven%20of%2010%20Somalis,future%20economic%20and%20social%20development.)
+    
+    * The icons used in the projects page and in the footer were taken from [Fontawesome](https://fontawesome.com/)
 
-**So….?**
+    * The fonts used in this site was taken from [google fonts](https://fonts.google.com/) 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    * The quote in the footer was taken from [MomentPath](https://www.momentpath.com/blog/owners-directors-inspiration-inspirational-quotes-about-teaching-children)
 
-**Can I opt out?**
+    * The hamburger menu was learned from a [youtube tutorial](https://www.youtube.com/watch?v=XM7sEpl0f7c&t=14s)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- **Media**
+    
+    * links the photos and vidoes:
+        - [Save the children logo](https://www.thirdsector.co.uk/save-children-admits-failings-leaked-report-backs-inappropriate-behaviour-claims/management/article/1458983)
+        - [Amnesty logo](https://www.cardiffstudents.com/activities/society/amnestyinternational/)
+        - [Unicef logo](https://ceowatermandate.org/resources/child-rights-global-supply-chains/)
+        - [Build schools](https://www.unicef.org/afghanistan/education)
+        - [Fund a child](https://www.unicef.org/afghanistan/education)
+        - [Landing background vidoe](https://youtu.be/gldQxy5aroE)
+        - [The photo before sponsers section](https://www.washingtonpost.com/world/national-security/state-department-employees-split-with-tillerson-on-child-soldiers-list/2017/11/21/ea906b8b-6d72-4e88-bb57-197a38baf164_story.html)
+        - [first photo of about page](https://www.unicef.org/stories/radio-based-learning-gets-its-day-sun-mali)
+        - [second photo of about page](https://www.unicef.org/southsudan/what-we-do/education)
+        - [third photo of about page](https://www.unicef.org/afghanistan/education)
+        - [photo of the contact page](https://www.unicef.org/mali/en/recits/une-alternative-educative-a-nianabougou)
+        - [project one photo](https://www.nbcnews.com/news/world/nearly-half-afghan-children-don-t-go-school-girls-disproportionately-n879586)
+        - [project two photo](https://islamicreliefsomalia.org/education/)
