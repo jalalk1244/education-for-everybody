@@ -87,6 +87,16 @@ for people who want to donate.
 
 ## Deployment
 
+- I deployed my site on git-hub pages by:
+    * first opening my site's repository
+    * then I clicked on settings
+    * after that in the side bar I clicked on "pages"
+    * I selceted "deploy from a branch"
+    * I selected the main branch
+    * lastly I clicked on save.
+
+- The live link: https://jalalk1244.github.io/education-for-everybody/
+     
 
 ## Credit
 
